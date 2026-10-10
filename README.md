@@ -20,8 +20,8 @@ ERP simples e funcional com **dashboard de análises**, **relatórios exportáve
 Ou manualmente, em dois terminais:
 
 ```powershell
-.\.venv\Scripts\python -m uvicorn backend.main:app --reload      # API  -> http://127.0.0.1:8000/docs
-.\.venv\Scripts\python -m streamlit run frontend/app.py          # Tela -> http://localhost:8501
+.\.venv\Scripts\python -m uvicorn backend.main:app --reload
+.\.venv\Scripts\python -m streamlit run frontend/app.py
 ```
 
 Outros comandos:
